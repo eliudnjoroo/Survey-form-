@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>my-survey-form.freecodecamp.rocks</title>
+        <link rel="stylesheet" href="styles.css"/>
+    </head>
+    <body>
+
+      
+        <h1 id="title">freeCodeCamp Survay Form.</h1>
+        <p id="description">Thank you for taking the time to help us improove the platform.</p>
+
+      <section class="full">
+        <form id="survey-form">
+
+            <label id="name-label">Name: </label>
+              <input required id="name" type="text" placeholder="example: john"/>
+            <label id="email-label">Email: </label>
+              <input required type="email" id="email" placeholder="example@gmail.com"/>
+            <label id="number-label">Number: </label>
+              <input required type="number" id="number" min="1" max="1000" placeholder="0712345678"/>
+
+            <label id="possition">Possition: 
+                <select id="dropdown">
+                    <option>(choose)</option>
+                    <option>Student.</option>
+                    <option>Teacher</option>
+                </select>
+            </label>
+
+            <label id="gender">Gender: 
+                <label>Male. <input type="radio" name="choice" value="m"/></label>
+                <label>Female. <input type="radio" name="choice" value="f"/></label>
+            </label>
+            
+            <label id="experience">How was your experience? </label>
+            <section>
+               <label id="s">Happy <input type="checkbox" value="one"/></label>
+                <label id="s">insightfull<input type="checkbox" value="two"/></label>
+                <label id="s">cool: <input type="checkbox" value="three"/></label>
+                <label id="s">disapointing: <input type="checkbox" value="four"/></label>
+                <label id="s">beautiful: <input type="checkbox" value="five"/></label>
+            </section>
+            <label> Comments: </label>
+                <textarea id="exp" placeholder="Comments"></textarea>
+            
+            <button id="submit">Submit</button>
+        </form>
+      </section>
+
+    </body>
+</html>

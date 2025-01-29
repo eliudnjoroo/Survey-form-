@@ -1,0 +1,36 @@
+body {
+  display: block;
+  background-image: url(https://rewildingeurope.com/wp-content/uploads/2021/11/RS1765_SBA_2011-07-30_070027-low.jpg);
+  color: yellow;
+  height: 100vh;
+  text-align: center;
+}
+label {
+  display:block;
+  padding: 15px;
+}
+#number, #email, #name, #exp{
+   min-width: 400px;
+}
+#s, #experience{
+   margin: 1px;
+}
+section {
+  padding:5px;
+}
+.full {
+  margin:30px;
+  background-color: rgba(0, 0 , 0 , 0.6);
+  padding:60px;
+  text-align: left;
+}
+#description {
+  margin:10px;
+  font-size:25px;
+  font-style: italic;
+}
+h1 {
+  font-size:35px;
+  font-style: italic;
+  color: white;
+}
